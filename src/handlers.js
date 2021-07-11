@@ -11,6 +11,9 @@ module.exports.register = (req, res) => {
     res.render('register')
 }
 
+
+
+
 module.exports.api = {
     register: async (req, res) => {
         const {

@@ -10,7 +10,7 @@ const Handlers=require('./src/handlers.js')
 const port =Config.Port||3000;
 const app= Express();
 
-//handlebars step
+//handlebars setup 
 app.engine('handlebars',ExpressHandlebars({
     defaultLayout:'main',
     helpers:{
@@ -25,13 +25,13 @@ app.engine('handlebars',ExpressHandlebars({
 }));
 app.set('view engine','handlebars');
 
-//app step
+//app setup 
 app.use(Express.json());
 app.use(Express.urlencoded({extended:true}));
 app.use(Express.static(__dirname + '/public'));
 
 
-//session and passport step
+//session and passport setup 
 SessionPassport.initialize(app,Passport,Session)
 
 //
