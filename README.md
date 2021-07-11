@@ -1,7 +1,8 @@
 # Tmp-express-sessios
 Template server : express-session passport-local strategy  
 
-#Please modify the ./lib/config.js to your postgres database
+#Please modify the ./lib/config.js to your postgres database.
+
 const db={
     host:"localhost",
     user:"postgres",
@@ -11,10 +12,12 @@ const db={
 };
 
 
-#Please modify the session secret  
+#Please modify the session secret.  
+
 const session={secret:"hallo world;"};
 
-#port the app are using 
+#port the app are using.
+
 const Port=4044;
 
 
