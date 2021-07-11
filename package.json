@@ -1,0 +1,37 @@
+{
+  "name": "tmp-express-sessios",
+  "version": "0.0.1",
+  "description": "passport local strategy",
+  "main": "main.js",
+  "scripts": {
+    "Start": "nodemon ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moharambe1/Tmp-express-sessios.git"
+  },
+  "keywords": [
+    "express-session",
+    "passport-local",
+    "strategy"
+  ],
+  "author": "mohammedi ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moharambe1/Tmp-express-sessios/issues"
+  },
+  "homepage": "https://github.com/moharambe1/Tmp-express-sessios#readme",
+  "dependencies": {
+    "connect-pg-simple": "^6.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
